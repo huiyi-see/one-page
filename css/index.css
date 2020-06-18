@@ -31,7 +31,11 @@ h2,
 h3 {
 	text-align: center;
 }
-
+.homeImg{
+	width: 80%;
+	text-align: center;
+	margin-left: 10em;
+}
 .homeTitle{
 
 }
@@ -92,7 +96,7 @@ h3 {
 }
 
 .featureCon{
-	padding-left: 4em ;
+	padding-left: 3em ;
 	padding-right: 4em;
 	text-align: center;
 }
@@ -162,7 +166,7 @@ h3 {
 }
 .serviceCon{
 	margin-top: 0;
-	padding-left: 4em ;
+	padding-left: 3em ;
 	padding-right: 4em;
 	text-align: center;
 }
@@ -207,6 +211,19 @@ h3 {
 .works{
 	width: 100%;
 	border:black solid;
+}
+.img1{
+	display: inline-block;
+	width: 30%;
+	margin-left: 2em;
+	border:red solid;
+	border-radius: 20px;
+}
+.comLogo{
+	margin-top: 2em;
+	width: 100%;
+	background-color: #B8Cbc9;
+	height: 15%;
 }
 .contacts{
 	width: 100%;
