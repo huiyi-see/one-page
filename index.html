@@ -15,6 +15,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Kanit:wght@300&display=swap" rel="stylesheet">
 	<a href="https://icons8.com/icon/104316/teamwork"></a>
 	<a href="https://icons8.com/icon/104253/accuracy"></a>
 	<a href="https://icons8.com/icon/53877/idea-bank"></a>
@@ -31,7 +32,7 @@
 		<div class="nav" onclick="func(this)">
 			<nav>
 			<ul class="navList">
-				<li class="navLi">Home</li>
+				<a href="#homeDir"><li class="navLi">Home</li></a>
 				<a href="#aboutDir"><li class="navLi">About</li></a>
 				<a href="#serviceDir"><li class="navLi">Services</li></a>
 				<a href="#workDir"><li class="navLi">Works </li></a>
@@ -41,19 +42,19 @@
 		</div> 
 		</header>
 	</div>
-	<div class="content">
+	<a id="homeDir"><div class="content">
 		<h1 class="homeTitle">Web Development</h1>
 		<p class="featureCon">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
 		<img src="img/first.jpg" class="homeImg">
-	</div> 
-		<section class="about">
-			<a id="aboutDir"><div class="wrapper2"></a>
+	</div> </a>
+		<a id="aboutDir"><section class="about"></a>
+			<div class="wrapper2">
 				<div class="moreContent">
 					<h2 class="aboutTitle">Suspendisse ut rutrum erat </h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl sem, vulputate vel nisi quis, ornare sollicitudin metus. Mauris vestibulum maximus eros. Pellentesque ultrices malesuada nisi, in dignissim est maximus sed. Quisque vel ipsum congue, vulputate arcu a, ullamcorper purus. In tincidunt felis eros, vel ultricies nibh maximus non. Phasellus posuere felis convallis condimentum interdum. Curabitur id velit at felis ornare mollis. Nam tincidunt, nibh quis auctor luctus, elit ex accumsan erat, eu mattis lectus nibh blandit massa. Vivamus scelerisque faucibus sem, id porta enim cursus vitae. In hendrerit dui eu ultricies pretium.</p>
-					<button class="w3-btn w3-white w3-border w3-border-red w3-round-large">More about us</button>
+					<a href="#featureDir"><button type="w3-btn w3-white w3-border w3-border-red w3-round-large">More about us >> </button></a>
 				</div>
-				<div class="wrapper2">
+				<div class="wrapper3">
 					<div class="column1">
 						<img src="https://img.icons8.com/dusk/64/000000/idea-bank.png" class="imgCenter"/>
 						<p class="aboutP">Nullam feugiat ultricies aliquam. Donec viverra, nunc at rutrum auctor, neque elit porta mi, non venenatis lectus purus non ante.</p>
@@ -73,7 +74,7 @@
 			</div>	
 		</div>
 		</section>
-	<section class="featu">
+	<a id="featureDir"><section class="featu"></a> 
 	<div class="features">
 		<h2 class="serviceTitle"> Features</h2>
 		<p class="featureCon">Curabitur blandit tellus ex, vel venenatis tellus consequat a. Vestibulum velit dolor, rhoncus nec porta nec, rutrum ac elit. Nam neque erat, consectetur sit amet semper in, gravida in augue. Pellentesque volutpat justo felis, id molestie purus sodales eu. </p>
