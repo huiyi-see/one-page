@@ -15,12 +15,13 @@ margin: 20px auto 0 auto;
 	list-style: none;
 	border:solid grey;
 	color: red;
-	padding-left:30em; 
+	padding-left:50em; 
 	display: flex;
 
 }
 .navLi{
 	border:solid pink;
+	padding-left: 2em;
 }
 .content{
 	border:green solid;
@@ -224,7 +225,7 @@ h3 {
 	margin-top: 2em;
 	width: 100%;
 	background-color: #B8Cbc9;
-	height: 15%;
+	height: 10%;
 }
 .contacts{
 	width: 100%;
