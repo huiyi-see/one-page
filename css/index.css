@@ -15,11 +15,12 @@ margin: 20px auto 0 auto;
 	list-style: none;
 	border:solid grey;
 	color: red;
+	padding-left:30em; 
 	display: flex;
 
 }
 .navLi{
-	border:solid green;
+	border:solid pink;
 }
 .content{
 	border:green solid;
