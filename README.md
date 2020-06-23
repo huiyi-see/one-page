@@ -1,5 +1,5 @@
 # One-page responsive webpage
-##### Single responsive webpage created with html and css
+##### Single responsive webpage created with html, css and some of the javascript.
 
 ##Table of Contents
 * [Introduction](#intro)
