@@ -21,7 +21,7 @@ margin: 20px auto 0 auto;
     top: 0;
     float:right;
     font-style: normal;
-    background-color:#B8Cbc9 ;
+    background-color:/*#B8Cbc9*/#70C5CC ;
     padding-bottom: 2em;
 }
 .navList{
@@ -53,13 +53,6 @@ a:active{
 	text-decoration: none;
 	color: #0B3057;
 }
-
-.content{
-	clear: both;
-	border:green solid;
-	padding:.6em;
-
-}
 h1,
 h2,
 h3 {
@@ -68,34 +61,33 @@ h3 {
 h2{
 	font-size:2em;
 }
+.content{
+	clear: both;
+}
+.content1{
+	border:green solid;
+	background-color:#4bb7a8 ;
+}
 .homeImg{
-	width: 80%;
+	border:#70C5CC solid;
+	width: 50%;
 	text-align: center;
-	margin-left: 10em;
-}
-.homeTitle{
-	padding-top: 2%;
-	font-size: 2.5em;
-}
-.wrapper1{
-	background-color: #2980B9  ;
-}
-.about{
-	display: flex;
-	background-color: #0B3057;
-	color: white;
-}
-.wrapper2{
-	/*display: flex;*/
-	padding-top: 3%;
-}
-.moreContent {
-	/*border:brown solid;*/
-	width: 40%;
-	padding: 2em;
-	margin-left: 7%;
 	float: left;
+	padding-top: 2.18em;
+	padding-left: 1em;
+	padding-bottom: 1.39em;
+	background-color:#70C5CC ;
 }
+.contentMain{
+	float: right;
+	border:#70C5CC solid;
+	width: 42.45%;
+	padding-top: 5em;
+	padding-right: 5em;
+	padding-bottom: 13em;
+	background-color:#70C5CC ;
+}
+
 .buttonMore {
   display: inline-block;
   border-radius: 4px;
@@ -108,6 +100,7 @@ h2{
   transition: all 0.5s;
   cursor: pointer;
   margin-left: 8em;
+  margin-top: 2em;
   font-family: 'Balsamiq Sans', cursive;
 }
 
@@ -135,6 +128,35 @@ h2{
   opacity: 1;
   right: 0;
 }
+
+.homeTitle{
+	padding-top: 2%;
+	font-size: 2.5em;
+}
+.featureCon{
+	font-family: 'Balsamiq Sans', cursive;
+}
+.wrapper1{
+	background-color: #2980B9  ;
+}
+.about{
+	clear: both;
+	display: flex;
+	background-color: #0B3057;
+	color: white;
+}
+.wrapper2{
+	/*display: flex;*/
+	padding-top: 3%;
+}
+.moreContent {
+	/*border:brown solid;*/
+	width: 40%;
+	padding: 2em;
+	margin-left: 7%;
+	float: left;
+}
+
 .column1,
 .column2,
 .column3,
@@ -292,7 +314,25 @@ h2{
 	border:black solid;
 	padding-top: 3%;
 }
+.img{
+	display: flex;
+}
 .img1{
+	display: inline-block;
+	width: 30%;
+	margin-left: 2em;
+	border:red solid;
+	border-radius: 20px;
+	margin-bottom: 1em;
+}
+.img2{
+	display: inline-block;
+	width: 30%;
+	margin-left: 2em;
+	border:red solid;
+	border-radius: 20px;
+}
+.img3{
 	display: inline-block;
 	width: 30%;
 	margin-left: 2em;
