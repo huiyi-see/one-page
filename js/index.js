@@ -2,10 +2,17 @@ function func(y){
 	y.classList.toogle("change");
 }
 
-function myMap()
-{
-	var mapProp={
-		center: new google.maps.LatLng(),
-		zoom:5,
+function myFunc(){
+	var y = document.getElementById("nav");
+	if (x.style.display ==="block"){
+		x.style.display ="none";
 	}
-};
+	else
+	{
+		x.style.display = "block";
+	}
+}
+
+$(document).ready(function(){
+
+});

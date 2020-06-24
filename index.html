@@ -25,25 +25,35 @@
 	<a href="https://icons8.com/icon/42833/more"></a>
 	<a href="https://icons8.com/icon/42882/android"></a>
 	<a href="https://icons8.com/icon/46349/apple-app-store"></a>
+	<a href="https://icons8.com/icon/103756/address"></a>
+	<a href="https://icons8.com/icon/103784/telephone"></a>
+	<a href="https://icons8.com/icon/42936/paper-plane"></a>
 </head>
 <body>
 	<div id="wrapper">
 		<header class="header">
-		<div class="nav" onclick="func(this)">
+		<div class="nav" >
+			<div class="wholeLogo">
+				<img src="img/logo2.png">
+			</div>
 			<nav>
+			<div class="myLink">
 			<ul class="navList">
 				<a href="#homeDir"><li class="navLi">Home</li></a>
 				<a href="#aboutDir"><li class="navLi">About</li></a>
 				<a href="#serviceDir"><li class="navLi">Services</li></a>
 				<a href="#workDir"><li class="navLi">Works </li></a>
 				<a href="#contactDir"><li class="navLi">Contact<!--<img src="https://img.icons8.com/plasticine/100/000000/business-contact--v1.png"/>--></li></a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunc()"></a>
+    		<i class="fa fa-bars"></i>
 			</ul>
+			</div>
 			</nav>
-		</div> 
+			</div> 
 		</header>
 	</div>
 	<a id="homeDir"><div class="content">
-		<h1 class="homeTitle">Web Development</h1>
+		<h1 class="homeTitle">Better website with ...</h1>
 		<p class="featureCon">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
 		<img src="img/first.jpg" class="homeImg">
 	</div> </a>
@@ -52,7 +62,7 @@
 				<div class="moreContent">
 					<h2 class="aboutTitle">Suspendisse ut rutrum erat </h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl sem, vulputate vel nisi quis, ornare sollicitudin metus. Mauris vestibulum maximus eros. Pellentesque ultrices malesuada nisi, in dignissim est maximus sed. Quisque vel ipsum congue, vulputate arcu a, ullamcorper purus. In tincidunt felis eros, vel ultricies nibh maximus non. Phasellus posuere felis convallis condimentum interdum. Curabitur id velit at felis ornare mollis. Nam tincidunt, nibh quis auctor luctus, elit ex accumsan erat, eu mattis lectus nibh blandit massa. Vivamus scelerisque faucibus sem, id porta enim cursus vitae. In hendrerit dui eu ultricies pretium.</p>
-					<a href="#featureDir"><button type="w3-btn w3-white w3-border w3-border-red w3-round-large">More about us >> </button></a>
+					<a href="#featureDir"><button class="buttonMore" style="vertical-align: middle;"><span>More about us </span></button></a>
 				</div>
 				<div class="wrapper3">
 					<div class="column1">
@@ -174,26 +184,53 @@
 		<div class="img">
 			<img src="img/add2.jpg" class="img1">
 		</div>
-		<div class="comLogo">
-			
+		<!--<div class="comLogo">
+			<img class="comLogoClass" src="img/logo3.jpg">
+			<img class="comLogoClass" src="img/logo1.png">
+			<img class="comLogoClass" src="img/logo1.png">
+			<img class="comLogoClass" src="img/logo1.png">
+		</div>-->
+	</section>
+	<a id="contactDir"><div class="contacts">
+		<h2 class="contactTitle"> Contact Info</h2>	
+			<p class="featureCon"> Etiam dictum nibh sit amet augue bibendum maximus. In hac habitasse platea dictumst. Vivamus fermentum mattis libero, in laoreet erat egestas et. Aliquam tempus libero sit amet sapien interdum iaculis.</p>	
+			<div class="leftSide">
+			<div class="addrBar">
+				<h3>Address</h3>
+				<img src="https://img.icons8.com/dusk/64/000000/address.png" class="imgCenter" />
+				<p class="contactDetails"> 123 , Halifax, Nova Scotia, Canada.</p>
+			</div>
+			<div class="contactEmail">
+				<h3>Email Us</h3>
+				<img src="https://img.icons8.com/dusk/64/000000/paper-plane.png" class="imgCenter" />
+				<p class="contactDetails">contact@example.com</p>		
+				<p class="contactDetails">info@example.com</p>	
+			</div>
+			<div class="contactCall">
+				<h3>Call us</h3>
+				<img src="https://img.icons8.com/dusk/64/000000/phone-not-being-used.png" class="imgCenter" />
+				<p class="contactDetails">+1 1234567890</p>
+				<p class="contactDetails">+1 0987654321</p>
+			</div>
 		</div>
-	</section>
-	<a id="contactDir"><section class="contacts"></a>
-		<h2 class="contactTitle"> Contact Info</h2>
-		<p></p>
-		<div id="googleMap" style="width: 30%; height: 400px"></div>
-		<form>
-			<label></label>
-			<input type="" name="">
-			<br>
-		</form>
-
-		
-	</section>
+			<form class="form">
+				<input type="text" name="name" placeholder="Your Name" size="20" class="name">
+				<input type="text" name="name" placeholder="Your Email" size="20" class="name">
+				<br>
+				<br>
+				<input type="text" name="subject" placeholder="Subject" class="subject">
+				<br>
+				<br>
+				<input type="text" name="message" placeholder="Message" class="message">
+				<br>
+				<br>
+				<button type="submit" class="buttonSubmit">Submit</button>
+			</form>
+	
+	</div></a>
 </body>
-<footer>
-
-
+<footer class="footer">
+	@2020
 </footer>
 <script type="text/javascript" src="js/index.js"></script>
 <a href="https://icons8.com/icon/100723/contact-details"></a>
