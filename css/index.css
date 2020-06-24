@@ -6,12 +6,11 @@ margin: 20px auto 0 auto;
 .wholeLogo{
 	border:black solid;
 	width: 20%;
-	height:3%;
 	float: left;
-	top:0;
+	margin-left: 2em;
+	margin-top: .8em;
 }
 .nav{
-	border: red solid;
 	display: inline-block;
 	width: 100%;
 	height: 5%;
@@ -28,10 +27,10 @@ margin: 20px auto 0 auto;
 .navList{
 	padding-top: 0;
 	list-style: none;
-	border:solid grey;
 	width: 60%;
 	display: flex;
-	margin-left: 30em;
+	margin-left: 50em;
+	margin-top: 2em;
 
 }
 /*unvisited link*/
@@ -47,10 +46,9 @@ a:active{
 
 }
 .navLi{
-	border:solid pink;
 	top: 0;
 	padding-left: 2em;
-	font-size:1.5em;
+	font-size:1.2em;
 	font-family: 'Balsamiq Sans', cursive;
 	text-decoration: none;
 	color: #0B3057;
