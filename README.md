@@ -16,6 +16,7 @@ Project is created with:
 * Lorem ipsum
 
 ## Launch
-To run and to visualize the result of this project, a link is provided as below:https://aresponsivesite.netlify.app/
+To run and to visualize the result of this project, a link is provided as below: 
+https://aresponsivesite.netlify.app/
 
 
