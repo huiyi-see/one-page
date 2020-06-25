@@ -357,7 +357,6 @@ h2{
 }
 .contacts{
 	width: 100%;
-	border: pink solid;
 	background-color: #B5C5CE;
 	padding-bottom: 30em;
 }
@@ -466,7 +465,7 @@ h2{
 	
 }
 /* tablet mode */
-@media (min-width: 768px) and (max-width: 1026px){
+@media (min-width: 768px) and (max-width: 1023px){
 	.wrapper,
 	.content,
 	.about,
@@ -649,7 +648,6 @@ h2{
 		background-color: white;
 		font-family: 'Balsamiq Sans', cursive;
 		width: 100%;
-		border:green solid;
 		margin-left: 6em;
 		padding-right: 5em;
 		padding-left: 5em;
@@ -658,7 +656,6 @@ h2{
 		width: 40%;
 		margin-top: 1em;
 		margin-left: 14em;
-		border:green solid;
 		padding-right: 3em;
 		padding-left: 3em;	
 	}
@@ -668,7 +665,6 @@ h2{
 		margin-right: -7.4em;
 		padding-right: 3em;
 		padding-left: 3em;
-		border:green solid;	
 	}
 	
 	.form{
@@ -689,5 +685,75 @@ h2{
 	  margin-left: 19em;
 	  margin-top: 0;
 	  
+	}
+}
+@media (min-width: 1024px){
+	.nav{
+		display: inline-block;
+
+		height: 2%;
+		cursor:pointer;
+		margin-top: 0px;
+   		position: fixed;
+    	overflow: hidden;
+    	top: 0;
+    	float:right;
+    	font-style: normal;
+    	background-color:#B8Cbc9 ;
+    	padding-bottom: 2em;
+	}
+	.navList{
+		padding-top: 0;
+		list-style: none;
+		width: 60%;
+		display: flex;
+		margin-top: 1em;
+		margin-left: 13em;
+	}
+	.homeImg{
+		border:#70C5CC solid;
+		width: 100%;
+		padding-top: 6em;
+		padding-bottom: 1.39em;
+		padding-right: 3em;
+		padding-left: 4em;
+		background-color:#70C5CC ;
+	}
+	.contentMain{
+		width: 95%;
+		padding-top: 0;
+		background-color:white;
+		border:none;
+		margin-left: 3em;
+		padding-left:1em;
+		padding-bottom: 2em;
+	}
+	.homeCon{
+		margin-left: 10em;
+		font-size: 18pt;
+		text-align: center;
+		width: 80%;
+		padding-bottom: 1em;
+	}
+	.buttonMore {
+	  margin-left: 20em;
+	  margin-top: 0em;
+	}
+	.about{
+		width: 100%;
+		border:red solid;
+		margin-right: 4em;
+	}
+	.homeTitle{	
+		margin-left: 3em;
+		width: 100%;
+		padding-right: 1em;
+	}
+	.contactCall{
+		width: 40%;
+		margin-top: 1em;
+		margin-right: -7em;
+		padding-right: 3em;
+		padding-left: 3em;
 	}
 }
