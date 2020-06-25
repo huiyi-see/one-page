@@ -73,7 +73,7 @@ h2{
 	float: left;
 	padding-top: 6.1em;
 	padding-right: 1em;
-	padding-bottom: 1.39em;
+	padding-bottom: 2.7em;
 	background-color:#70C5CC ;
 }
 .contentMain{
@@ -321,7 +321,6 @@ h2{
 	width: 30%;
 	height: 40%;
 	margin-left: 2em;
-	border:red solid;
 	border-radius: 20px;
 	margin-bottom: 1em;
 }
@@ -329,14 +328,12 @@ h2{
 	display: inline-block;
 	width: 30%;
 	margin-left: 2em;
-	border:red solid;
 	border-radius: 20px;
 }
 .img3{
 	display: inline-block;
 	width: 30%;
 	margin-left: 2em;
-	border:red solid;
 	border-radius: 20px;
 }
 .comLogo{
@@ -687,7 +684,7 @@ h2{
 	  
 	}
 }
-@media (min-width: 1024px){
+@media (max-width: 1024px){
 	.nav{
 		display: inline-block;
 
