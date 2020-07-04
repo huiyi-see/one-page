@@ -344,7 +344,6 @@ h2{
 	background-color: #B8Cbc9;
 	height: 10%;
 	display: flex;
-	border: red solid;
 }
 .comLogoClass{
 	border:green solid;
@@ -444,9 +443,12 @@ h2{
 	.wrapper,
 	.content,
 	.about,
+	.featu,
+	.services,
 	.works{
 		border: pink solid;
 		width: 100%;
+		
 	}
 	.nav{
 		overflow: hidden;
@@ -458,24 +460,55 @@ h2{
 		display: none;
 	}
 	.imgCenter{
-		visibility: none;
+		display: none;
 		border:red solid;
+		width: 100%;
 	}
-	
+	.colPic1{
+		border:red solid;
+		float: none;
+		display: none;
+	}
+	.colPic2{
+		border:red solid;
+		float: none;
+		display: none;
+	}
+	.colPic3{
+		border:red solid;
+		float: none;
+		display: none;
+
+	}
+	.col1Content{
+		border:green solid;
+		float: none;
+		width: 80%;
+		margin-left: 0;
+	}
+	.col2Content{
+		border:green solid;
+		float: none;
+		width: 80%;
+	}
+	.col3Content{
+		border:green solid;
+		float: none;
+		width: 80%;
+	}
 }
 /* tablet mode */
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1023px){
 	.wrapper,
 	.content,
 	.about,
 	.featu,
 	.services,
 	.works{
-		width: 100%;
+		
 	}
 	.nav{
 		display: inline-block;
-		width: 100%;
 		height: 2%;
 		cursor:pointer;
 		margin-top: 0px;
@@ -740,7 +773,6 @@ h2{
 	}
 	.about{
 		width: 100%;
-		border:red solid;
 		margin-right: 4em;
 	}
 	.homeTitle{	
